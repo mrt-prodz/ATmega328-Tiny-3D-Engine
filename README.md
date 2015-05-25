@@ -9,6 +9,18 @@ You can use the python script stl2h.py to convert STL models into header files a
 
 See stl2h.py help (./stl2h -h) for usage description.
 
+```
+Usage: ./stl2h.py -i <inputfile> -o <outputfile>
+Convert a 3D mesh saved as STL format (ASCII) to header for Tiny 3D Engine.
+
+  -i, --inputfile       3D mesh in STL file format
+  -o, --outputfile      output filename of converted data
+  -s, --scale           scale ratio (default 1.0)
+  -n, --normals         save face normals
+  -y, --yes             answer yes to all requests
+  -v, --verbose         verbose output
+```
+
 Developed and tested with an Arduino UNO and a Sainsmart 1.8" TFT screen.
 
 ##Features:
