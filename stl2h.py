@@ -6,7 +6,7 @@
 # 
 # ------------------------
 # http://www.mrt-prodz.com
-# https://github.com/mrt-prodz/CTFBot
+# http://github.com/mrt-prodz/ATmega328-Tiny-3D-Engine
 # -----------------------------------------------------------------------------
 import sys, getopt, os
 
