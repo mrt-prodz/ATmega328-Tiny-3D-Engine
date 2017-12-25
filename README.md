@@ -1,6 +1,6 @@
-#ATmega328 Tiny 3D Engine (Arduino UNO)
+# ATmega328 Tiny 3D Engine (Arduino UNO)
  
-####3D model viewer made for the ATmega328 and Sainsmart 1.8" TFT screen (ST7735)
+#### 3D model viewer made for the ATmega328 and Sainsmart 1.8" TFT screen (ST7735)
 
 This is a tiny 3D engine made for the ATMEGA328 and a Sainsmart 1.8" TFT screen (ST7735).
 It uses the amazingly fast Adafruit GFX library fork by XarkLabs: [github.com/XarkLabs](https://github.com/XarkLabs)
@@ -23,7 +23,7 @@ Convert a 3D mesh saved as STL format (ASCII) to header for Tiny 3D Engine.
 
 Developed and tested with an Arduino UNO and a Sainsmart 1.8" TFT screen.
 
-##Features:
+## Features:
 * matrices for mesh transformations
 * fixed point to avoid using floats
 * 90 degrees fixed point look up table for sin/cos
@@ -35,21 +35,21 @@ Developed and tested with an Arduino UNO and a Sainsmart 1.8" TFT screen.
 
 This is a project for the ATmega328 and ST7735, source will certainly need some tweaking to run on other components.
 
-##Not implemented:
+## Not implemented:
 * clipping
 * view/projection matrices (projection is done on world matrix directly)
 * hidden surface removal
 
-##Dependencies:
+## Dependencies:
 * [XarkLabs PDQ_GFX_Libs](https://github.com/XarkLabs/PDQ_GFX_Libs)
 
-##Video:
+## Video:
 [Preview of Tiny 3D Engine on YouTube](https://youtu.be/8nZam2jpIqw)
 
-##Screenshot:
+## Screenshot:
 ![Screenshot](https://raw.githubusercontent.com/mrt-prodz/ATmega328-Tiny-3D-Engine/master/screenshot.jpg)
 
-##References:
+## References:
 [Wiring](http://www.tweaking4all.com/hardware/arduino/sainsmart-arduino-color-display)
 
 [Game Loop](http://www.koonsolo.com/news/dewitters-gameloop)
